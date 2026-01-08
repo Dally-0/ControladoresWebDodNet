@@ -171,6 +171,7 @@
     <Content Include="View.aspx" />
     <Content Include="Hyperlink.aspx" />
     <Content Include="GridView.aspx" />
+    <None Include="Properties\PublishProfiles\TestAppDodnetDavid - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
