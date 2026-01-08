@@ -1,0 +1,39 @@
+﻿/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Separa los radio buttons horizontales */
+.radio-spacing label {
+    margin-right: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* Separa los radio buttons verticales */
+.radio-spacing-vertical label {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+/* Hace que el input radio tenga un margen correcto */
+.radio-spacing input, .radio-spacing-vertical input {
+    margin-top: 5px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .body-content {
+        padding: 0;
+    }
+}
