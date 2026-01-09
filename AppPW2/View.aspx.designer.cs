@@ -15,6 +15,15 @@ namespace AppPW2
     {
 
         /// <summary>
+        /// Control upEncuesta.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel upEncuesta;
+
+        /// <summary>
         /// Control mvEncuesta.
         /// </summary>
         /// <remarks>
